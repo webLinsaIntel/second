@@ -40,14 +40,14 @@
   user-select: none;
 }
 
-/* .caret::before {
+.caret::before {
   content: "\25B6";
   color: black;
   display: inline-block;
   margin-right: 6px;
-} */
+}
 
-.caret-down{
+.caret-down::before {
   -ms-transform: rotate(90deg); /* IE 9 */
   -webkit-transform: rotate(90deg); /* Safari */
   transform: rotate(90deg);  
